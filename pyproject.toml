@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "phone-number-validator-anakin1181"
+version = "0.1.0"
+description = ""
+authors = ["Anakin Lai <anakin252lai@gmail.com>"]
+readme = "README.md"
+packages = [{include = "phone_number_validator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+build = "^1.2.2.post1"
+poetry-plugin-export = "^1.8.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.4"
+requests-mock = "^1.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
