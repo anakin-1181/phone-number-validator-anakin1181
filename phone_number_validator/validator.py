@@ -2,8 +2,8 @@ import requests
 
 
 class PhoneNumberValidator:
-    def __init__(self) -> None:
-        self.api_key = "num_live_9ypNJRX0x5RzLuItJQfDXpej3ZbmV2fnqDBDWpE7"
+    def __init__(self, api_key) -> None:
+        self.api_key = api_key
         self.api_url = "https://api.numlookupapi.com/v1/validate/"
 
     def _make_api_call(self, phone_num: str, country_code: str = None):
