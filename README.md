@@ -12,6 +12,10 @@ This project is a Python-based phone number validator. It checks if a given phon
 To install the required dependencies, run:
 
 ```bash
+pip install poetry-plugin-export
+```
+
+```bash
 pip install -i https://test.pypi.org/simple/ phone-number-validator-anakin1181
 ```
 
